@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+
+<!-- Link CSS -->
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav>
+  <h2>My Portfolio</h2>
+  <div>
+    <a href="#about">About Me</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#recommendations">Recommendations</a>
+  </div>
+</nav>
+
+<!-- ABOUT ME SECTION -->
+<section id="about">
+  <h2>About Me</h2>
+
+  <div class="about-container">
+    <img src="https://cdn-icons-png.flaticon.com/512/2922/2922510.png" alt="Avatar">
+
+    <div class="about-text">
+      <p>
+        Hi, I'm Jane Doe! 👋  
+        I am a full stack developer with experience in building modern web
+        applications. I enjoy working with both frontend and backend
+        technologies, and I love learning new tools to improve my craft.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS SECTION -->
+<section id="skills">
+  <h2>Skills</h2>
+
+  <div class="skills-container">
+    <div class="skill-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png">
+      <p><strong>HTML</strong></p>
+      <p>2 years experience</p>
+    </div>
+
+    <div class="skill-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png">
+      <p><strong>JavaScript</strong></p>
+      <p>1.5 years experience</p>
+    </div>
+
+    <div class="skill-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png">
+      <p><strong>Java</strong></p>
+      <p>1 year experience</p>
+    </div>
+
+    <div class="skill-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/1126/1126012.png">
+      <p><strong>React</strong></p>
+      <p>1 year experience</p>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS SECTION -->
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="project-card">
+    <h3>Portfolio Website</h3>
+    <p>A clean and responsive website built using HTML, CSS, and JavaScript.</p>
+  </div>
+
+  <div class="project-card">
+    <h3>Weather App</h3>
+    <p>Displays real-time weather using an external API.</p>
+  </div>
+
+  <div class="project-card">
+    <h3>Task Manager</h3>
+    <p>A productivity tool built with JavaScript and localStorage.</p>
+  </div>
+</section>
+
+<!-- RECOMMENDATIONS SECTION -->
+<section id="recommendations">
+  <h2>Recommendations</h2>
+
+  <div id="recommend-list">
+    <div class="recommend-card">"Great developer and team player!"</div>
+    <div class="recommend-card">"Consistently delivers quality work."</div>
+  </div>
+
+  <h3>Add a Recommendation</h3>
+  <textarea id="rec-input" placeholder="Write a recommendation..."></textarea>
+  <button onclick="addRecommendation()">Submit</button>
+</section>
+
+<!-- Link JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
